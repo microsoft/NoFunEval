@@ -1,0 +1,18 @@
+datasets
+argparse
+vllm
+nltk
+scipy
+transformers
+jinja2
+datetime
+jsonlines
+statistics
+tree_sitter
+tiktoken
+joblib == 1.1.0
+numpy == 1.23.1
+pandas == 1.4.4
+psutil == 5.9.2
+tqdm == 4.49.0
+multiprocess
