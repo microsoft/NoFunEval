@@ -7,6 +7,18 @@ This repository hosts the official code and data artifact for the paper ["NoFunE
 2. [Evaluation scripts](#3-evaluation-scripts): Scripts to evaluate LMs by taking input from examples in NoFunEval and producing score@k scores for the metrics reported in the paper: DiffBleu, Average SpeedUp, CodeQL, CodeQL-DiffBleu.
 
 ## Datasets
+* **Runtime Efficiency**:
+Improving algorithmic time complexity of code for faster run-time.
+* **Maintainability**: 
+Improving code readability and style, and following the best programming practices.
+* **Latency**:
+Optimizing code for faster response times in Android applications.
+* **Resource Utilization**:
+Optimizing code for lower resource utilization on edge devices.
+* **Security**:
+Fixing specific security vulnerabilities in the input code.
+* **HumanEvalClassify**:
+Classifying between the buggy and correct snippets of code. 
 
 # Generation
 ## Environment Setup
