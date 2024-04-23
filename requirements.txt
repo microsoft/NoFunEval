@@ -10,7 +10,7 @@ jsonlines
 statistics
 tree_sitter
 tiktoken
-joblib == 1.1.0
+joblib == 1.2.0
 numpy == 1.23.1
 pandas == 1.4.4
 psutil == 5.9.2
