@@ -14,5 +14,5 @@ joblib == 1.2.0
 numpy == 1.23.1
 pandas == 1.4.4
 psutil == 5.9.2
-tqdm == 4.49.0
+tqdm == 4.66.3
 multiprocess
