@@ -53,7 +53,7 @@ bash evaluation_example_script.sh
 | ----------------------------- | ---------------------------------------- |
 | `data_subset`                     | The subset of data to use. Options: `latency`, `resource_util`, `maintainability`, `security`, `runtime_efficiency` for nofunedit. Additionally `humanevalclassify` for classification.|
 | `model_path` | The path of the model from HF. Example: `WizardLM/WizardCoder-15B-V1.0`.
-| `prompt`      | Prompt to use. Options: `base_prompt`, `one-shot`, `chain_of_thought`, `coding_concepts`. |
+| `prompt`      | Prompt to use. Options: `base_prompt`, `one_shot`, `chain_of_thought`, `coding_concepts`. |
 | `num_samples` | Number of samples to generate. Example: `1` (We used  `1` for greedy and `20` for higher temperature). **[NoFunEdit - Generation only]**|
 | `max_new_tokens` | Budget for new token generation for a model. Example: `1200` (NoFunEdit: We used `1200` for runtime_efficiency and security for all prompts than CoT where `1500` was used. For others, we used `5192` or max possible limit. Classification: We used `4` for all generations).|
 | `temperature` | Temperature for model generation. Example: `0` (We used `0` for greedy and `0.8` for higher samples) |

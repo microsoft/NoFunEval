@@ -363,7 +363,7 @@ def post_process_generations(generated_answers: str, model: str, prompt:str, pl:
 
     generated_answers = remove_blank_lines(generated_answers)
 
-    if(prompt == "one-shot" or prompt == "chain_of_thought"):
+    if(prompt == "one_shot" or prompt == "chain_of_thought"):
         index = 2
     else:
         index = 1
